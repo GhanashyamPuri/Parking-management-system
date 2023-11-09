@@ -1,0 +1,53 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin:0;
+    border:0
+}
+BODY{
+    background-image:url("dp1.jpeg");
+    height: 80%;
+  background-position: center;
+ 
+  background-size: cover;
+}
+header{
+    background-color: rgb(24, 5, 112)
+}
+#header-logo{
+    width:64px;
+    height:64px;
+}
+#header-msg{
+    font-size: 25px;
+    color: white;
+}
+.footer {
+  background-color:rgb(24,5,112);
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  position: fixed;
+  height: 75px;
+  bottom: 0px;
+  width: 100%;
+}
+marquee{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(177, 209, 230);
+    font-family: sans-serif;
+    }
+#btnOne{
+    
+    color:black;
+}
+#btnOne:focus,#btnOne:hover{
+    box-shadow: none;
+    outline:none;
+}
+
+#tableHead{
+    background-color:rgb(32, 103, 161);
+}
